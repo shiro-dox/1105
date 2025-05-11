@@ -1,0 +1,16 @@
+import pyautogui as p
+import time as t
+
+ask=input("какое из трёх приложений вы хотите открыть?")
+if ask == "chrome":
+    print("запускаю...")
+    p.moveTo(408, 748)
+    p.doubleClick()
+if ask == "windows":
+        print("запускаю...")
+        p.hotkey('win')
+if ask == "cmd":
+    print("запускаю")
+    p.hotkey('win', 'r')
+    p.write('cmd')
+    p.press('enter')

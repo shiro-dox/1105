@@ -1,0 +1,17 @@
+import pyautogui as p
+import time as t
+
+ask=input("выберите 1, или2 ")
+p.moveTo(408, 748)
+p.doubleClick()
+if ask == "1":
+    p.moveTo(637,66)
+    p.click()
+    p.write('hfpevty kb z?')
+    p.press('enter')
+if ask == "2":
+    t.moveTo(637,66)
+    p.click
+    p.write(' Ckfdf hj,jnfv!')
+    p.press('enter')
+
